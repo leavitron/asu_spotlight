@@ -1,8 +1,14 @@
 name = ASU Spotlight
 machine_name = asu_spotlight
 description = This module allows placement of a  flexslider-enabled slideshow; complete with optional title, description, and action-button placement.
-version = 7.x-1.5-dev
-downloadable = asu_spotlight 7.x-1.5-dev
+version = 7.x-1.6-dev
+downloadable = asu_spotlight 7.x-1.6-dev
 author = Colton Testamarck
 author_url = asu.edu
-downloadables[asu_spotlight 7.x-1.5-dev] = https://github.com/ctestama/asu_spotlight/archive/master.zip
+dependencies[features] = features 7.x-2.3
+dependencies[flexslider] = flexslider 7.x-2.0-alpha3
+dependencies[panopoly_widgets] = panopoly_widgets 7.x-1.15
+downloadables[asu_spotlight 7.x-1.6-dev] = https://github.com/ctestama/asu_spotlight/archive/master.zip
+downloadables[panopoly_widgets 7.x-1.15] = http://ftp.drupal.org/files/projects/panopoly_widgets-7.x-1.15.tar.gz
+downloadables[features 7.x-2.3] = http://ftp.drupal.org/files/projects/features-7.x-2.3.tar.gz
+downloadables[flexslider 7.x-2.0-alpha3] = http://ftp.drupal.org/files/projects/flexslider-7.x-2.0-alpha3.tar.gz
